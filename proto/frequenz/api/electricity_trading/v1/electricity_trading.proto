@@ -583,7 +583,7 @@ message UpdateGridpoolOrderRequest {
 
     // Optional; Updated execution options such as All or None,
     // Fill or Kill, etc.
-    OrderExecutionOption execution_option = 7;
+    optional OrderExecutionOption execution_option = 7;
 
     // Optional; This is an updated timestamp defining the time after
     // which the order should be cancelled if not filled.
