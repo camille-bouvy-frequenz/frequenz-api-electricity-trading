@@ -148,6 +148,8 @@ disable = [
   "unnecessary-lambda-assignment",
   # Checked by mypy
   "no-member",
+  "possibly-used-before-assignment",
+  "no-name-in-module",
 ]
 
 [tool.pytest.ini_options]
